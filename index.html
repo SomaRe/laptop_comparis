@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compare Laptops</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar with just center-aligned text "Laptop Comparison"-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Laptop Comparison</a>
+        </div>
+      </nav>
+    <!-- bootstrap table -->
+    <div class="container table-container">
+        <table class="table table-striped table-hover">
+            <thead>
+                <tr class="names">
+                    <th scope="col">Images</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+                <tr class="names">
+                    <th scope="col">Laptop Names</th>
+                </tr>
+                <tr class="price">
+                    <th>Price (Rupees)</th>
+                </tr>
+                <tr class="screen">
+                    <th><span>Screen</span>
+                        <br><br>size (inches)
+                        <br>ratio
+                        <br>resolution
+                        <br>brightness (nits)
+                        <br>touchscreen
+                        <br>panel Type
+                        <br>refresh rate (hz)
+                        <br>color gamut
+                    </th>
+
+                </tr>
+                <tr class="convertible">
+                    <th>Convertible</th>
+                </tr>
+                <tr class="CPU">
+                    <th>CPU</th>
+                </tr>
+                <tr class="RAM">
+                    <th>RAM</th>
+                </tr>
+                <tr class="storage">
+                    <th>Storage</th>
+                </tr>
+                <tr class="GPU">
+                    <th>GPU</th>
+                </tr>
+                <tr class="battery">
+                    <th>Battery</th>
+                </tr>
+                <tr class="weight">
+                    <th>Weight</th>
+                </tr>
+                <tr class="width">
+                    <th>Width</th>
+                </tr>
+                <tr class="webcam">
+                    <th>Webcam</th>
+                </tr>
+                <tr class="ir">
+                    <th>IR</th>
+                </tr>
+                <tr class="fingerprint">
+                    <th>Fingerprint</th>
+                </tr>
+                <tr class="type_c_charging">
+                    <th>Type c charging</th>
+                </tr>
+                <tr class="Variants">
+                    <th>Variants</th>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!-- Sticky Footer bootstrap -->
+    <footer class="footer fixed-bottom mt-auto py-3 bg-light">
+        <div class="container d-flex justify-content-center">
+          <span>Made with ❤️ by <b><i>Soma</i></b></span>
+          </div>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

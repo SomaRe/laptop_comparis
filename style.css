@@ -1,0 +1,25 @@
+.container-fluid{
+    justify-content: center !important;
+}
+
+.table-container{
+    margin-top: 30px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+th{
+    text-align: left;
+}
+
+.screen th span{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    padding-bottom: 20px;
+}
+
+footer span i{
+    color: rgb(225, 123, 225);
+    /* cursive font */
+    font-family: 'Pacifico', cursive;
+}
