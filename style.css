@@ -12,6 +12,23 @@ th{
     text-align: left;
 }
 
+th, td{
+    padding: 20px 10px !important;
+}
+
+.images{
+    text-align: center;
+}
+
+img{
+    width: 150px;
+    height: 100%;
+}
+
+tr:last-child{
+    text-align: left;
+}
+
 .screen th span{
     text-decoration: underline;
     text-underline-offset: 10px;

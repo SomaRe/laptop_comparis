@@ -1,5 +1,5 @@
 data = [
-    {'Name': 'Lenovo Yoga 7i',
+    {'Name': 'Lenovo Yoga 7i (16)',
         'Price':88000,
         'Screen':{
             'size': 16,
@@ -24,10 +24,9 @@ data = [
         'Fingerprint': true,
         'Type_c_charging': true,
         'Variants':{1:{'Price': 70000,'CPU':'Intel Core i5-1240P', 'Storage': 512},
-        2:{'Price': 73000,'CPU':'Intel Core i5-1235U', 'Storage': 512},
         }
         },
-    {'Name': 'Lenovo Yoga 7i',
+    {'Name': 'Lenovo Yoga 7i (14)',
         'Price':84000,
         'Screen':{
             'size': 14,
@@ -66,7 +65,7 @@ data = [
             'refresh': 120,
             'color-space': '100% sRGB',
         },
-        'Convertible': true,
+        'Convertible': false,
         'CPU':'Ryzen 5 6600HS',
         'RAM': 16,
         'Storage': 512,
@@ -81,3 +80,5 @@ data = [
         'Variants':null,
     },
     ]   
+
+folders = [['yoga7i16',9], ['yoga7i14',0], ['ideapad5pro',0]]
