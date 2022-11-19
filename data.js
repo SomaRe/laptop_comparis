@@ -79,6 +79,33 @@ data = [
         'Type_c_charging': false,
         'Variants':null,
     },
+    {
+        'Name': 'ASUS VivoBook S 14X',
+        'Price': 73000,
+        'Screen':{
+            'size': 14.5,
+            'ratio': '16:10',
+            'resolution': '2880x1800',
+            'brightness': 550,
+            'touch': false,
+            'type': 'OLED',
+            'refresh': 120,
+            'color-space': '100% DCI-P3',
+        },
+        'Convertible': false,
+        'CPU':'Ryzen 7 6800H',
+        'RAM': 16,
+        'Storage': 1000,
+        'GPU': '680M',
+        'Battery': 70,
+        'Weight': 1.6,
+        'Width': 17.8,
+        'Webcam': 720,
+        'IR': false,
+        'Fingerprint': true,
+        'Type_c_charging': true,
+        'Variants':null,
+    }
     ]   
 
-folders = [['yoga7i16',9], ['yoga7i14',0], ['ideapad5pro',0]]
+folders = [['yoga7i16',9], ['yoga7i14',0], ['ideapad5pro',0], ['asusprox14',1]]
